@@ -11,7 +11,6 @@
   "bugs": {
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
   },
-  "homepage": "https://github.com/saseungg/saseungg.github.io",
   "scripts": {
     "prebuild": "npx rimraf assets/js/dist",
     "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",
@@ -26,7 +25,6 @@
     "@babel/preset-env": "^7.23.5",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-terser": "^0.4.4",
-    "gh-pages": "^6.1.1",
     "rimraf": "^5.0.5",
     "rollup": "^4.6.1",
     "rollup-plugin-license": "^3.2.0",
