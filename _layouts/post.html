@@ -72,7 +72,7 @@ tail_includes:
         {% for tag in page.tags %}
           <a
             href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration"
+            class="post-tag"
           >
             {{- tag -}}
           </a>

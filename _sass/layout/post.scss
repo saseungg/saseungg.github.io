@@ -118,9 +118,8 @@ h1 + .post-meta {
 
   .post-tag {
     &:hover {
-      @extend %link-hover;
-      @extend %tag-hover;
-      @extend %no-bottom-border;
+      transition: all 0.2s ease-in;
+      background-color: #f1f1f1;
     }
   }
 }
@@ -128,15 +127,11 @@ h1 + .post-meta {
 .post-navigation {
   .btn {
     @extend %btn-post-nav;
-
-    &:not(:hover) {
-      color: var(--link-color);
-    }
+    color: var(--heading-color);
 
     &:hover {
-      &:not(.disabled)::before {
-        color: whitesmoke;
-      }
+      background-color: #f3f4f5;
+      border-color: var(--btn-border-color);
     }
 
     &.disabled {
@@ -146,10 +141,6 @@ h1 + .post-meta {
       cursor: not-allowed;
       background: none;
       color: gray;
-    }
-
-    &.btn-outline-primary.disabled:focus {
-      box-shadow: none;
     }
 
     &::before {
@@ -182,7 +173,7 @@ h1 + .post-meta {
   .post-navigation {
     .btn,
     .btn::before {
-      transition: all 0.35s ease-in-out;
+      transition: all 0.2s ease-in-out;
     }
   }
 }
