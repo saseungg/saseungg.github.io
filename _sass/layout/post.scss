@@ -120,7 +120,7 @@ h1 + .post-meta {
   .post-tag {
     &:hover {
       transition: all 0.2s ease-in;
-      background-color: #f1f1f1;
+      background-color: var(--post-tag-bg);
     }
   }
 }
@@ -131,7 +131,7 @@ h1 + .post-meta {
     color: var(--heading-color);
 
     &:hover {
-      background-color: #f3f4f5;
+      background-color: var(--post-nav-bg);
       border-color: var(--btn-border-color);
     }
 
