@@ -115,6 +115,7 @@ h1 + .post-meta {
 
 .post-tags {
   line-height: 2rem;
+  font-size: 0.8rem;
 
   .post-tag {
     &:hover {
@@ -162,9 +163,9 @@ h1 + .post-meta {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
     white-space: normal;
   }
 } /* .post-navigation */
