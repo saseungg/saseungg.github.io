@@ -333,6 +333,10 @@ sup {
 }
 
 .post-preview {
+  p {
+    font-size: 0.9rem;
+  }
+
   @extend %rounded;
 
   border: 0;
@@ -886,7 +890,7 @@ $btn-mb: 0.5rem;
   }
 
   .nav-link {
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
   }
 
   .post-preview {
