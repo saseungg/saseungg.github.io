@@ -1,7 +1,7 @@
 ---
 title: 디자인 시스템 구축기
 date: 2023-08-21 16:21:00 +0800
-categories: [Project]
+categories: [Etc]
 tags: [디자인 시스템]
 image: /assets/img/contents/design-system/figma-design-systems.png
 ---
@@ -37,7 +37,7 @@ image: /assets/img/contents/design-system/figma-design-systems.png
 
 위처럼 기능 단위만 적는 것이 아니라 먼저 사용자가 어떤 동작을 할 수 있을지를 생각하면서 기능들을 구체화시켜나갔다.
 
-![](/assets/img/contents/design-system/plan.jpeg){: w="470"}
+![](/assets/img/contents/design-system/plan.jpeg){: w="470" }
 
 ### 스케치
 
