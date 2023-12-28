@@ -44,20 +44,33 @@ body {
     @extend %heading;
 
     @if $i > 1 {
-      @extend %section;
       @extend %anchor;
     }
 
-    @if $i < 5 {
-      $factor: 0.18rem;
-
-      @if $i == 1 {
-        $factor: 0.23rem;
+    @if $i == 1 {
+      font-size: 32px;
+      font-weight: 800;
+    } @else if $i == 2 {
+      font-size: 1.51572rem;
+      font-weight: 700;
+      main & {
+        margin-top: 56px;
+        margin-bottom: 20px;
       }
-
-      font-size: 1rem + (5 - $i) * $factor;
+    } @else if $i == 3 {
+      font-size: 1.31951rem;
+      font-weight: 600;
+      main & {
+        margin-bottom: 0.8125rem;
+        margin-top: 1.625rem;
+      }
     } @else {
-      font-size: 1rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      main & {
+        margin-bottom: 0.8125rem;
+        margin-top: 1.625rem;
+      }
     }
   }
 }
@@ -404,8 +417,6 @@ main {
 
 .content {
   font-size: 1rem;
-  margin-top: 2rem;
-  overflow-wrap: break-word;
 
   a {
     &.popup {
@@ -624,7 +635,7 @@ main {
 /* Overwrite bootstrap outline button */
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
-    border-color: var(--btn-border-color)!important;
+    border-color: var(--btn-border-color) !important;
   }
 }
 
@@ -1496,9 +1507,7 @@ search {
   }
 
   search {
-    margin-right: calc(
-      $main-content-max-width / 4 - $search-max-width - 2rem
-    );
+    margin-right: calc($main-content-max-width / 4 - $search-max-width - 2rem);
   }
 
   #main-wrapper > .container {
