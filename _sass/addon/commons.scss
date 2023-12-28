@@ -1493,7 +1493,7 @@ search {
 
   search {
     margin-right: calc(
-      $main-content-max-width / 4 - $search-max-width - 0.75rem
+      $main-content-max-width / 4 - $search-max-width - 2rem
     );
   }
 
