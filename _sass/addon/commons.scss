@@ -932,6 +932,10 @@ $btn-mb: 0.5rem;
     }
 
     span {
+      &:last-child {
+        font-size: 0.85rem;
+      }
+
       &:not(:last-child) {
         &::after {
           content: "›";
